@@ -3,6 +3,7 @@
 --primary-color: #f8fafc;
 --secondary-color: #0ea5e9;
 --third-color: #22c55e;
+--fourth-color:#e2e8f0;
 }
 
 .container {
@@ -20,18 +21,10 @@
     
 }
 
-.description {
-    background-color: var(--third-color);
-}
-
 .change-table {
-    background-color: var(--third-color);
+    background-color: var(--fourth-color);
     padding: 1rem;
     border-radius: 25px;
-}
-
-#bill-amount {
-    
 }
 
 
