@@ -1,7 +1,8 @@
 
 :root {
 --primary-color: #f8fafc;
---secondary-color: #38bdf8;
+--secondary-color: #0ea5e9;
+--third-color: #22c55e;
 }
 
 .container {
@@ -13,6 +14,20 @@
     max-width: 350px;
     padding: 0rem 1rem;
     margin:auto;
+}
+.heading {
+    color: var(--secondary-color);
+    
+}
+
+.description {
+    background-color: var(--third-color);
+}
+
+.change-table {
+    background-color: var(--third-color);
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 #bill-amount {
@@ -29,6 +44,3 @@
     margin:auto;
 } 
 
-.change-table {
-    padding: 1rem;
-}
