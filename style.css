@@ -1,9 +1,16 @@
 .container {
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 50vw;
+    max-width: 350px;
+    padding: 0rem 1rem;
 }
 
 #bill-amount {
     text-align: center;
+}
+
+#check-button {
+    size: 0rem 1rem;
 }
